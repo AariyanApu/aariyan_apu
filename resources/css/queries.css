@@ -22,5 +22,25 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
 
+    .profile-thumb img {
+
+        height: 270px;
+        border-radius: 2%;
+        -webkit-border-radius: 2%;
+        -moz-border-radius: 2%;
+        -ms-border-radius: 2%;
+        -o-border-radius: 2%;
+}
+    
+    #main-header h1 span {
+        font-size: 110%;
+
+    }
+    
+    #main-header h3 span {
+        font-size: 50%;
+       
+    }
+
 }
 
