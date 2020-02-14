@@ -2,14 +2,57 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Raleway', sans-serif;
-    /*font-family: 'Yeon Sung', cursive;*/
+    font-family: 'Comfortaa', cursive;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
+
+/*--- Reuseable component  ---*/
+
+h1,
+h3 {
+  
+}
+h2{color: rgba(0, 0, 0, 0.959);
+
+}
+
+
+section{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3{
+    opacity: 0;
+    animation-duration: 1s;
+    
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated{
+    opacity: 1;
+}
+
+.js--wp-4{ animation-duration: 3s;}
+
+
+
+
+
+
+
+/*--- Hero Page content  ---*/
 
 #page {
     position: relative;
@@ -25,7 +68,7 @@ body {
 
 
 #page .full-cover {
-    background-image: url(/resources/img/bg.jpg);
+    background-image: url(/resources/img/bg_for_phone.jpg);
     background-color: transparent;
     background-size: cover;
     background-attachment: fixed;
@@ -42,7 +85,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background:#020202d2;
+    background:rgba(255, 144, 0, 0.9);
 }
 
 #main-header {
@@ -63,31 +106,30 @@ body {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 70px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
 }
 
 #main-header h1 span {
-    font-size: 150%;
-    font-family: 'Yeon Sung', cursive;
-    margin-bottom: 0;
+    font-size: 110% ;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 100px;
     color: #fff;
 }
 
 #main-header h3 span {
-    font-size: 60%;
+    font-size: 50%;
     color: #fff;
+    padding-top: 200px;
 }
 
-h1,
-h3 {
-    padding: 0;
-    margin: 0;
-}
-h2{color: rgba(0, 0, 0, 0.959);}
+
+
+/*--- Main social  Icon  ---*/
+
 
 #main-header ul {
     list-style: none;
@@ -102,18 +144,46 @@ h2{color: rgba(0, 0, 0, 0.959);}
 
 #main-header ul li a {
     color: #fff;
+    font-size: 190%;
+    margin-right: 10px;
 }
 
-#main-header ul li a:active,
-#main-header ul li a:hover {
-    color:#e25668;
+
+.facebook:active,
+.facebook:hover{
+    color:#00acee !important;
+    
 }
-.btn {
-    font-size: 160%;
-    color: #fff;
+.linkedin:active,
+.linkedin:hover{
+    color:#0077b5 !important;
+    
+}
+.instagram:active,
+.instagram:hover{
+    color:#3f729b !important;
+    
+}
+.twitter:active,
+.twitter:hover{
+    color:#00acee !important;
 }
 
-section{
-    max-width: 1400px;
-    margin: 0 auto;
+
+   /* about section*/
+
+   .section-about h1{
+    
+    margin: 85px 0 45px 0;
+}
+
+.section-about h1 span{
+    color: #000;
+    text-transform: capitalize;
+
+}
+.about-me p{
+    text-align: justify;
+    max-width: 90%;
+    font-size: 90%;
 }

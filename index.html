@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aaru's World </title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -27,7 +28,14 @@
                         <div class="row">
                             <div class="col-md col-md-offset-2 text-center ">
                                 <div class="profile-thumb js--wp-4">
-                                    <img src="/resources/img/face_for_desk.jpg" alt="">
+
+                                    <picture>
+
+                                        <source srcset="/resources/img/face_for_desk.jpg" media=(min-width:481px) alt="">
+
+                                        <img src="/resources/img/face_for_mob_min.jpg" alt="">
+                                    </picture>
+
                                 </div>
                                 <div class="js--wp-3">
                                     <h1><span class="js--wp-4">Aariyan Hasan Apu</span></h1>
@@ -35,18 +43,16 @@
                                 </div>
                                 <p>
                                     <ul>
-                                        <li><a href="https://facebook.com/aariyan.apu/" target="_blank" class="btn">
+                                        <li><a href="https://facebook.com/aariyan.apu/" class="facebook">
                                                 <ion-icon name="logo-facebook"></ion-icon>
                                             </a></li>
-                                        <li><a href="https://www.linkedin.com/in/aariyanapu/" target="_blank"
-                                                class="btn">
+                                        <li><a href="https://www.linkedin.com/in/aariyanapu/" class="linkedin">
                                                 <ion-icon name="logo-linkedin"></ion-icon>
                                             </a></li>
-                                        <li><a href="https://www.instagram.com/aariyan.apu/" target="_blank"
-                                                class="btn">
+                                        <li><a href="https://www.instagram.com/aariyan.apu/" class="instagram">
                                                 <ion-icon name="logo-instagram"></ion-icon>
                                             </a></li>
-                                        <li><a href="https://twitter.com/AariyanApu" target="_blank" class="btn">
+                                        <li><a href="https://twitter.com/AariyanApu" class="twitter">
                                                 <ion-icon name="logo-twitter"></ion-icon>
                                             </a></li>
                                     </ul>
@@ -62,6 +68,37 @@
     </section>
 
 
+     <section class="section-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md text-center">
+                    <h1><span> about me </span></h1>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md js--wp-2 about-me">
+                    <h2>Hello There!</h2>
+
+                    <p>
+                        I believe that people should do things in which they are good at or in which their heart lays.
+                        That’s why I chose freelance web development & web design as my career because I believe I’m
+                        good at this.
+                    </p>
+                    <p>
+                        I am very much expert in both WEB DEVELOPMENT and RESPONSIVE WEB DESIGN. I use Python & Django
+                        to develop
+                        websites and HTML5, CSS3, JavaScript, jQuery & Bootstrap to design websites. I also
+                        use MySQL & SEO to make the websites perfect & easier to use.
+                    </p>
+                    <p>Feel free to connect me for making your own Websites.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -74,8 +111,8 @@
 
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    
-<script src="/vendors/js/jquery.waypoints.min.js"></script>
+
+    <script src="/vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/main.js"></script>
 </body>
 
