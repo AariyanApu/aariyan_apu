@@ -12,14 +12,6 @@ body {
 
 /*--- Reuseable component  ---*/
 
-h1,
-h3 {
-  
-}
-h2{color: rgba(0, 0, 0, 0.959);
-
-}
-
 
 section{
     max-width: 1400px;
@@ -68,7 +60,7 @@ section{
 
 
 #page .full-cover {
-    background-image: url(/resources/img/bg_for_phone.jpg);
+    background-image: url(/resources/img/bg.jpg);
     background-color: transparent;
     background-size: cover;
     background-attachment: fixed;
@@ -106,15 +98,15 @@ section{
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 70px;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 #main-header h1 span {
-    font-size: 110% ;
+    font-size: 150%;
     font-family: 'Kaushan Script', cursive;
     margin-bottom: 100px;
     color: #fff;
@@ -187,3 +179,55 @@ section{
     max-width: 90%;
     font-size: 90%;
 }
+
+
+
+/* ----------------------------------------------- */
+/* My services */
+/* ----------------------------------------------- */
+#section-services{
+    padding: 100px 0;
+    margin-top: 100px;
+    background:rgba(255, 144, 0, 0.9);
+}
+
+.services-heading{ 
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+   
+}
+
+
+.icon-bg{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.icon{
+    font-size: 50px;
+    margin-top: 27%;
+    height: 50px;
+    color: #FF9000 !important;
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
