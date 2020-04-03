@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('.js--wp-2').waypoint(function(direction) {
         $('.js--wp-2').addClass('animated fadeInRight');
     }, {
-        offset: '70%'
+        offset: '50%'
     });
     
     $('.js--wp-3').waypoint(function(direction) {
@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('.js--wp-4').waypoint(function(direction) {
         $('.js--wp-4').addClass('animated pulse');
     }, {
-        offset: '70%'
+        offset: '30%'
     });
     
 });
