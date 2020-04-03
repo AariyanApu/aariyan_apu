@@ -21,7 +21,7 @@ section{
 /* ----------------------------------------------- */
 /* Animations */
 /* ----------------------------------------------- */
-
+/*------
 .js--wp-1,
 .js--wp-2,
 .js--wp-3{
@@ -38,7 +38,7 @@ section{
 
 .js--wp-4{ animation-duration: 1s;}
 
-
+----*/
 
 
 
@@ -60,7 +60,7 @@ section{
 
 
 #page .full-cover {
-    background-image: url(/resources/img/bg.jpg);
+    background-image: url(bg.jpg);
     background-color: transparent;
     background-size: cover;
     background-attachment: fixed;
