@@ -373,7 +373,7 @@ footer p {
 
 
 #my-work ul{
-    list-style: none;
+    list-style: none !important;
 }
 
 #my-work ul li{
