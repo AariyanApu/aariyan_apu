@@ -198,6 +198,9 @@ section {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+
+
+  box-shadow: 10px 10px 20px #d87b01, -10px -10px 20px #ff9000;
 }
 
 .icon {
